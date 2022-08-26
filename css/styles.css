@@ -1,0 +1,62 @@
+@media screen and (min-width: 992px) {
+  .hero-banner-1,
+  .hero-banner-3,
+  .hero-banner-4,
+  .hero-banner-5,
+  .hero-banner-6 {
+    height: 700px;
+  }
+
+  .hero-1-img {
+    background-image: url("/images/hero/hero-img.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .hero-banner-2 {
+    height: 700px;
+    display: block;
+  }
+
+  .hero-2-img {
+    background-image: url("/images/hero/hero-img-2.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .hero-3-img {
+    background-image: url("/images/hero/hero-img-3.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .hero-4-img {
+    background-image: url("/images/hero/hero-img-4.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .hero-5-img {
+    background-image: url("/images/hero/hero-img-5.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .hero-6-img {
+    background-image: url("/images/hero/hero-img-6.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero-2-img {
+    display: none;
+  }
+}
